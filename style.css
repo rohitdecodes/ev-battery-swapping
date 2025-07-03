@@ -1,0 +1,4 @@
+/* Custom quiz button style */
+.quiz-btn {
+  @apply block w-full bg-gray-200 hover:bg-green-300 px-4 py-2 rounded text-left transition;
+}

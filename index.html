@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EV Battery Swapping</title>
+  <!-- AOS CSS (for animation styles) -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-green-600">EV Swap Edu</h1>
+      <nav class="space-x-4 hidden md:block">
+        <a href="#home" class="text-gray-700 hover:text-green-600 font-medium">Home</a>
+        <a href="#about" class="text-gray-700 hover:text-green-600 font-medium">About</a>
+        <a href="#videos" class="text-gray-700 hover:text-green-600 font-medium">Videos</a>
+        <a href="#quiz" class="text-gray-700 hover:text-green-600 font-medium">Quiz</a>
+        <a href="#contact" class="text-gray-700 hover:text-green-600 font-medium">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-gradient-to-r from-green-100 to-green-200 py-20">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+      <div class="mb-10 md:mb-0 md:w-1/2">
+        <h2 class="text-4xl font-bold text-green-800 mb-4">Learn About EV Battery Swapping</h2>
+        <p class="text-lg text-gray-700 mb-6">Discover how electric vehicle battery swapping works, its benefits, and how it's changing the future of transportation.</p>
+        <a href="#about" class="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition">Explore More</a>
+      </div>
+      <div class="md:w-1/2">
+        <img src="assets/images/hero.jpg" alt="EV Hero" class="w-full rounded-xl shadow-lg" />
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Informational Sections -->
+<section id="about" class="bg-white py-16 px-4 md:px-20">
+  <div class="max-w-6xl mx-auto space-y-16">
+
+    <!-- Section 1 -->
+    <div>
+      <h2 class="text-3xl font-bold text-green-700 mb-4">What is EV Battery Swapping?</h2>
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <p class="text-lg text-gray-700 leading-relaxed">
+          EV battery swapping is a method where electric vehicle batteries can be quickly exchanged at swap stations, instead of waiting to recharge. This saves time and makes EVs more convenient, especially for commercial or fleet vehicles.
+        </p>
+        <img src="assets/images/concept.jpg" alt="Concept" class="w-full rounded-lg shadow-md" />
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div>
+      <h2 class="text-3xl font-bold text-green-700 mb-4">How Does It Work?</h2>
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <ul class="list-disc text-lg text-gray-700 ml-6 space-y-2">
+          <li>Drive to a battery swap station.</li>
+          <li>Remove the discharged battery from your EV.</li>
+          <li>Swap it with a fully charged one from the station.</li>
+          <li>Drive away with minimal delay (usually under 5 minutes).</li>
+        </ul>
+        <img src="assets/images/working.jpg" alt="Working" class="w-full rounded-lg shadow-md" />
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div>
+      <h2 class="text-3xl font-bold text-green-700 mb-4">Benefits and Challenges</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Benefits -->
+        <div class="bg-green-50 p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold text-green-800 mb-2">✅ Benefits</h3>
+          <ul class="list-disc ml-5 text-gray-700 space-y-1">
+            <li>Fast energy replenishment</li>
+            <li>No need for personal charging setup</li>
+            <li>Lower EV purchase cost (battery as service)</li>
+          </ul>
+        </div>
+        <!-- Challenges -->
+        <div class="bg-red-50 p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold text-red-800 mb-2">⚠️ Challenges</h3>
+          <ul class="list-disc ml-5 text-gray-700 space-y-1">
+            <li>Standardization of batteries</li>
+            <li>Initial infrastructure cost</li>
+            <li>Battery ownership & warranty issues</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 4 -->
+    <div>
+      <h2 class="text-3xl font-bold text-green-700 mb-4">Real-World Applications</h2>
+      <p class="text-lg text-gray-700 mb-4">
+        Countries like China and India are leading in battery swapping adoption. Companies like NIO, Gogoro, and SUN Mobility have already implemented working solutions in taxis, delivery fleets, and two-wheelers.
+      </p>
+      <img src="assets/images/realworld.jpg" alt="Real-world" class="w-full rounded-lg shadow-md" />
+    </div>
+  </div>
+</section>
+
+    <!-- Video Section -->
+<section id="videos" class="bg-gray-100 py-16 px-4 md:px-20">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-green-700 mb-6">Watch Battery Swapping in Action</h2>
+    <p class="text-lg text-gray-700 mb-6">
+      Here's a real-world demo by SUN Mobility showing how EV battery swapping works in India.
+    </p>
+
+    <div class="w-full">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/QBABhF-6yUY?si=wCfwFVWAqOkqxjcV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+</section> 
+
+    <!-- AOS JS (for animation functionality) -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    
+    <!-- Footer -->
+<footer class="bg-green-700 text-white py-8 mt-16">
+  <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+    
+    <!-- Left -->
+    <div class="mb-4 md:mb-0">
+      <h3 class="text-xl font-semibold">EV Battery Swapping</h3>
+      <p class="text-sm text-gray-200">© 2025 EV swap | All rights reserved</p>
+    </div>
+
+    <!-- Right -->
+    <div class="space-x-4">
+      <a href="#home" class="hover:text-gray-300">Home</a>
+      <a href="#about" class="hover:text-gray-300">About</a>
+      <a href="#videos" class="hover:text-gray-300">Videos</a>
+      <a href="#quiz" class="hover:text-gray-300">Quiz</a>
+    </div>
+
+  </div>
+</footer>
+
+    <!-- QUIZ SECTION -->
+<section id="quiz" style="background-color: #f9f9f9; padding: 40px;">
+  <div style="max-width: 600px; margin: auto;">
+    <h2 style="font-size: 28px; color: #1e5631; text-align: center; margin-bottom: 20px;">Quick Quiz</h2>
+    <p style="font-size: 18px; margin-bottom: 15px;">Q: What is the main benefit of battery swapping?</p>
+
+    <!-- ✅ REAL BUTTONS -->
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <button class="quiz-btn" onclick="checkAnswer(this)">A. Longer battery life</button>
+      <button class="quiz-btn" onclick="checkAnswer(this)">B. Faster energy replenishment</button>
+      <button class="quiz-btn" onclick="checkAnswer(this)">C. Cheaper electricity</button>
+      <button class="quiz-btn" onclick="checkAnswer(this)">D. Higher vehicle speed</button>
+    </div>
+
+    <p id="quiz-result" style="margin-top: 20px; font-weight: bold; font-size: 18px;"></p>
+  </div>
+</section>
+
+<!-- CONTACT TOGGLE BUTTON -->
+<div style="text-align: center; margin-top: 50px;">
+  <button onclick="toggleContact()" style="padding: 12px 24px; background-color: #1e5631; color: white; border: none; border-radius: 6px;">
+    Show Contact Form 📬
+  </button>
+</div>
+
+<!-- CONTACT SECTION -->
+<section id="contact-section" style="display: none; background-color: #eeeeee; padding: 40px; margin-top: 20px;">
+  <div style="max-width: 600px; margin: auto;">
+    <h2 style="font-size: 28px; color: #1e5631; text-align: center; margin-bottom: 20px;">Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" style="width: 100%; padding: 12px; margin-bottom: 15px;"><br>
+      <input type="email" placeholder="Your Email" style="width: 100%; padding: 12px; margin-bottom: 15px;"><br>
+      <textarea rows="4" placeholder="Your Message" style="width: 100%; padding: 12px;"></textarea><br>
+      <button type="submit" style="padding: 12px 24px; background-color: #1e5631; color: white; border: none; border-radius: 6px; margin-top: 10px;">
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+
+</body>
+</html>
